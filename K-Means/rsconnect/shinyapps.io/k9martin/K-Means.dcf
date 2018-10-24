@@ -1,0 +1,12 @@
+name: K-Means
+title: K-Means
+username:
+account: k9martin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 531975
+bundleId: 1660031
+url: https://k9martin.shinyapps.io/K-Means/
+when: 1540377946.24112
+asMultiple: FALSE
+asStatic: FALSE
