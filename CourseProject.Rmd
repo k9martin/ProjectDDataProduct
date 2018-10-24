@@ -1,0 +1,36 @@
+---
+title: "Final Course Project"
+author: "Francisco Martín"
+date: "October 24, 2018"
+output: ioslides_presentation
+---
+
+## Introduction
+
+This is the presentation of the Developing Data Products. 
+
+Here, I will give a brief introduction to my Shiny app, based on K-Means 
+clustering of a quasirandom dataset.
+
+The link to the shiny app is: https://k9martin.shinyapps.io/K-Means/
+
+The link to the github repository where this job is: https://github.com/k9martin/ProjectDDataProduct
+
+
+## K-Means Clustering
+
+This technique consist on assign one center (the closest) to any point in a given dataset. 
+
+K centers are initialized randomly. At the end of the algorithm, this centers will be displayed 
+minimizing the total distance between points and centers, assigning one center to every point.
+
+## Shiny App
+
+In my Shiny app, user can choose how many centers will be (1 to 9), and my app automatically 
+calculates this centers. Also, position of the centers will be displayed. 
+
+``` {r echo=FALSE, out.width = '85%'}
+fig_path <- file.path(getwd(),"AppImage.png")
+knitr::include_graphics(fig_path)
+```
+
